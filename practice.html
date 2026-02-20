@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Page</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="all-wrapper">
+    <div class="headerbar">
+        <div class="left-header">
+            <p>Patrick Pagdanganan  </p>
+        </div>
+
+        <div class="right-header">
+            <ul class="header-list">
+                <li class="list-wrapper"><a href="#about">About</a></li>
+                <li class="list-wrapper"><a href="#skills">Skills</a></li>
+                <li class="list-wrapper"><a href="#projects">Projects</a></li>
+                <li class="list-wrapper"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+window.addEventListener("scroll", function() {
+    const header = document.querySelector(".headerbar");
+
+    if (window.scrollY > 50) {
+        header.classList.add("scrolled");
+    } else {
+        header.classList.remove("scrolled");
+    }
+});
+    </script>
+
+    <div class="profile-container">
+            <image class="profile-image" src="./aiPatricksqrd.png" ></image>
+            <p class="profile-name-text">Patrick Pagdanganan</p>
+            <p class ="profile-subtext">Aspiring Software Engineer || Programmer || Analyst</p>
+    </div>
+
+    <div class="aboutme-container" id="about">
+        <p class="aboutme-title-text">About Me</p>
+        <div class="aboutme-row-container">
+                <img src="./imgs/Coding.png" class="aboutme-image"></img>
+                <div class="aboutme-text-container">
+                    <p class="aboutme-description-subtext">Computer Science Student | 20 years old | Unemployed</p>
+                    <p class="aboutme-description-text">I’m passionate about programming, especially web development and game development, and enjoy working in collaborative, inspiring environments. Beyond coding, I pursue hobbies that foster personal growth and creativity, helping me bring fresh ideas to my work. I’m always eager to learn new skills and take on challenges that make an impact.</p>
+                </div>
+                
+        </div>
+        
+    </div>
+
+    <div class="skills-container" id="skills">
+        <p class="aboutme-title-text">Skills</p>
+
+        <div class="skills-stack-slider-container reveal">
+            <div class="skills-stack-slider">
+                        <div class="skills-stack-card">
+                            <div class="skillset-stackcolumn-container">
+                                <p class="skill-title">Programming Skill</p>
+                                <div class="skillset-stackrow-container">
+                                    <div class="skillset-container"> <image class="skill-icon" src="./imgs/logos/typescript logo.png"/> <p class="skillname">Typescript</p> </div>
+                                    <div class="skillset-container"> <image class="skill-icon" src="./imgs/logos/javascriptlogo-removebg-preview.png"/> <p class="skillname">Javascript</p> </div>
+                                    <div class="skillset-container"> <image class="skill-icon" src="./imgs/logos/javalogo-removebg-preview.png"/> <p class="skillname">Java</p> </div>
+                                    <div class="skillset-container"> <image class="skill-icon" src="./imgs/logos/cpplogo-removebg-preview.png"/> <p class="skillname">C++</p> </div>
+                                    <div class="skillset-container"> <image class="skill-icon" src="./imgs/logos/csharpReal.png"/> <p class="skillname">C#</p> </div>
+                                    <div class="skillset-container"> <image class="skill-icon" src="./imgs/logos/pythonlogo-removebg-preview.png"/> <p class="skillname">Python</p> </div>
+                                </div>
+                            </div>    
+                        </div>
+
+                        <div class="skills-stack-card">
+                            <div class="skillset-stackcolumn-container">
+                                <p class="skill-title">Full Stack Development</p>
+                                <div class="skillset-stackrow-container">
+                                    <div class="skillset-container"> <image class="skill-icon" src="./imgs/frameworks/reactLogo-removebg-preview.png"/> <p class="skillname">React</p> </div>
+                                    <div class="skillset-container"> <image class="skill-icon" src="./imgs/frameworks/nodejsLogo-removebg-preview.png"/> <p class="skillname">Nodejs</p> </div>
+                                    <div class="skillset-container"> <image class="skill-icon" src="./imgs/frameworks/mongooseLogo-removebg-preview.png"/> <p class="skillname">Mongoose</p> </div>
+                                    <div class="skillset-container"> <image class="skill-icon" src="./imgs/frameworks/monngodbLogo.png"/> <p class="skillname">MongoDB</p> </div>
+                                    <div class="skillset-container"> <image class="skill-icon" src="./imgs/frameworks/mariaDB-removebg-preview.png"/> <p class="skillname">MariaDB</p> </div>
+                                    <div class="skillset-container"> <image class="skill-icon" src="./imgs/logos/htmllogo-removebg-preview.png"/> <p class="skillname">HTML/CSS</p></div>
+                                </div>
+                            </div>    
+                        </div>
+
+                        <div class="skills-stack-card">
+                             <div class="skillset-stackcolumn-container">
+                                <p class="skill-title">Tools and Applications</p>
+                                <div class="skillset-stackrow-container">
+                                    <div class="skillset-container"> <image class="skill-icon" src="./imgs/tools/unityLogo-removebg-preview.png"/> <p class="skillname">Unity</p> </div>
+                                    <div class="skillset-container"> <image class="skill-icon" src="./imgs/tools/blenderLogo.jpg"/> <p class="skillname">Blender</p> </div>
+                                    <div class="skillset-container"> <image class="skill-icon" src="./imgs/tools/githubLogo-removebg-preview.png"/> <p class="skillname">Github</p> </div>
+                                    <div class="skillset-container"> <image class="skill-icon" src="./imgs/tools/figmaLogo-removebg-preview.png"/> <p class="skillname">Figma</p> </div>
+                                    <div class="skillset-container"> <image class="skill-icon" src="./imgs/tools/canvaLogo-removebg-preview.png"/> <p class="skillname">Canva</p> </div>
+                                    <div class="skillset-container"> <image class="skill-icon" src="./imgs/tools/msOfficeLogo-removebg-preview.png"/> <p class="skillname">MS Office</p></div>
+                                </div>
+                            </div> 
+                        </div>
+
+            </div>
+        </div>
+        <button class="next-btn"></button>
+        <button class="prev-btn"></button>
+
+        <script>
+            const wrapper = document.querySelector('.skills-stack-slider');
+            const cards = document.querySelectorAll('.skills-stack-card');
+            const nextBtn = document.querySelector('.next-btn');
+            const prevBtn = document.querySelector('.prev-btn');
+
+            let currentIndex = 0;
+            const cardWidth = cards[0].offsetWidth + 45; // card width + margin
+
+            function updateSlider() {
+                wrapper.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+            }
+
+            // ---- Button navigation ----
+            nextBtn.addEventListener('click', () => {
+                currentIndex++;
+                if (currentIndex >= cards.length) currentIndex = 0; // loop
+                updateSlider();
+            });
+
+            prevBtn.addEventListener('click', () => {
+                currentIndex--;
+                if (currentIndex < 0) currentIndex = cards.length - 1; // loop
+                updateSlider();
+            });
+
+            // ---- Auto slide every 4 seconds ----
+            setInterval(() => {
+    currentIndex++;
+    if (currentIndex >= cards.length) currentIndex = 0; // loop
+    updateSlider();
+}, 6000); // 4000ms = 4 seconds
+        </script>
+
+        <div class="skills-graph-container">
+
+            <div class="skills-container-left reveal">
+                
+                    <div class="chart-container">
+                        <canvas id="technicalDepthChart"></canvas>
+
+                         <div class="description-bargraph">
+                            Advancing Expertise in Programming Languages for Web and Game Development
+                        </div>
+
+                        <script>
+                        const depthCtx = document.getElementById('technicalDepthChart');
+
+                        new Chart(depthCtx, {
+                        type: 'bar',
+                        data: {
+                            labels: [
+                            'Typescript',
+                            'Javascript',
+                            'C#',
+                            'C++',
+                            'Java',
+                            'HTML/CSS'
+                            ],
+                            datasets: [{
+                            label: 'Technical Depth (out of 200)',
+                            data: [174, 157, 141, 77, 60, 80],
+                            backgroundColor: [
+                                '#3178C6',
+                                '#F7DF1E',
+                                '#68217A',
+                                '#00599C',
+                                '#B07219',
+                                '#E34F26'
+                            ],
+                            borderRadius: 8
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            plugins: {
+                            legend: { display: false },
+                            title: {
+                                display: true,
+                                text: 'Coding Hours by Language',
+                                color: '#ffffff',
+                                font: { size: 15 }
+                            }
+                            },
+                            scales: {
+                            y: {
+                                beginAtZero: true,
+                                max: 200,
+                                ticks: {
+                                stepSize: 5,
+                                color: '#cbd5e1'
+                                },
+                                grid: {
+                                color: '#334155'
+                                }
+                            },
+                            x: {
+                                ticks: {
+                                color: '#cbd5e1',
+                                maxRotation: 0,
+                                minRotation: 0
+                                },
+                                grid: {
+                                display: false
+                                }
+                            }
+                            }
+                        }
+                        });
+                        </script>
+                    </div>
+                    
+            </div>
+
+            <div class="skills-container-right reveal">
+                    
+
+                    <canvas id="skillsChart"></canvas>
+
+                    <div class="description">
+                    Goal-oriented problem solver with strong analytical thinking and performance-focused execution.
+                    </div>
+
+                            <script>
+                            const ctx = document.getElementById('skillsChart');
+
+                            new Chart(ctx, {
+                                type: 'radar',
+                                data: {
+                                    labels: ['Problem Solving', 'Data Analysis', 'Flexibility', 'Efficiency', 'Optimization'],
+                                    datasets: [{
+                                        label: 'Skill Level',
+                                        data: [4.8, 4.5, 4.3, 4.7, 4.6],
+                                        backgroundColor: 'rgba(56, 189, 248, 0.3)',
+                                        borderColor: '#38bdf8',
+                                        borderWidth: 2,
+                                        pointBackgroundColor: '#38bdf8'
+                                    }]
+                                },
+                                options: {
+                                    scales: {
+                                        r: {
+                                            suggestedMin: 0,
+                                            suggestedMax: 5,
+                                            grid: { color: '#334155' },
+                                            angleLines: { color: '#334155' },
+                                            pointLabels: { color: '#e2e8f0' },
+                                            ticks: {
+                                                backdropColor: 'transparent',
+                                                color: '#94a3b8'
+                                            }
+                                        }
+                                    },
+                                    plugins: {
+                                        legend: { display: false },
+                                        // hide default title since we will draw our glowing title
+                                        title: { display: false }
+                                    }
+                                },
+                                plugins: [{
+                                    id: 'glowTitle',
+                                    beforeDraw(chart) {
+                                        const ctx = chart.ctx;
+                                        const text = 'SSS+ Rank';
+                                        const fontSize = 15;
+                                        const topMargin = 10;
+
+                                        ctx.save();
+                                        ctx.font = `${fontSize}px sans-serif`;
+                                        ctx.textAlign = 'center';
+                                        ctx.textBaseline = 'top';
+
+                                        // glow effect
+                                        ctx.shadowColor = 'gold';
+                                        ctx.shadowBlur = 20;
+                                        ctx.fillStyle = '#EFBF04';
+
+                                        ctx.fillText(text, chart.width / 2, topMargin); // centered at top
+                                        ctx.restore();
+                                    }
+                                }]
+                            });
+                            </script>
+            </div>
+            
+        </div>
+
+
+    </div>
+    
+
+<script>
+window.addEventListener('scroll', () => {
+    const reveals = document.querySelectorAll('.reveal');
+
+    reveals.forEach(el => {
+        const windowHeight = window.innerHeight;
+        const elementTop = el.getBoundingClientRect().top;
+
+        if (elementTop < windowHeight - 100) {
+            el.classList.add('active');
+        }
+    });
+});
+</script>
+
+
+
+
+    <div class="project-container" id="projects">
+        <p class="aboutme-title-text">My Projects</p>
+        <div class="projects-grid-container">
+
+            <a href="https://drive.google.com/file/d/1rjjlWt6IxTmVJl8lGziG9n7uE29BzZIh/view?usp=drive_link" class="project-link">
+            <div class="projects-card-container">
+                <image src="./imgs/projects/rollabol.jpg" class="projects-grid-card"></image>
+                <p class="project-title">Mobile Roller Ball Game 3d</p>
+            </div>
+            </a>
+
+            <a class="project-link" href="https://drive.google.com/file/d/1KvIxH8DXLtVfWAAPKj7fke9B848c0jKA/view?usp=sharing">
+            <div class="projects-card-container">
+                <image src="./imgs/projects/DjinnQuestRR.png" class="projects-grid-card in-progress"></image>
+                <p class="project-title">Djinn Quest 3D RPG Alpha</p>
+            </div>
+            </a>
+
+            <a class="project-link" href="https://pat0616.github.io/Anti-Fish/">
+            <div class="projects-card-container">
+                <image src="./imgs/projects/anti-fish-logo.svg" class="projects-grid-card in-progress"></image>
+                <p class="project-title">Anti Fish</p>
+            </div>
+            </a>
+
+            <a class="project-link" href="https://github.com/Pat0616/CCDI-Peer-Review-System">
+            <div class="projects-card-container">
+                <div class="projects-grid-card ccdi-logo-adjust"></div>
+                <p class="project-title">CCDI Peer Review System</p>
+            </div>
+            </a>
+
+            <a class="project-link">
+            <div class="projects-card-container">
+                <div class="projects-grid-card in-progress">In Progress...</div>
+                <p class="project-title">Hotel Management System</p>
+            </div>
+            </a>
+
+            <a class="project-link">
+            <div class="projects-card-container">
+                <div class="projects-grid-card in-progress">In Progress...</div>
+                <p class="project-title">Albion Profit Calculator</p>
+            </div>
+            </a>
+
+            
+
+            
+            
+            
+        </div>
+    </div>
+
+
+    <div class="contact-container" id="contact">
+        <p class="contact-header">© 2026 Patrick Pagdanganan. All Rights Reserved.</p>
+        <button class="contact-button"><a class="project-link" href="mailto:pat0616@gmail.com">Contact</a></button>
+    </div>
+
+    
+    </div>
+</body>
+
+</html>
