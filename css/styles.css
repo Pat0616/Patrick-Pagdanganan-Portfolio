@@ -125,9 +125,7 @@ body{
     transition: color 0.3s; /* optional hover effect */
 }
 
-.header-list a:hover {
-    color: rgb(205, 161, 15)
-}
+
 
 
 .profile-container
@@ -261,7 +259,7 @@ body{
     border: solid;
     border-color: white;
     border-radius: 10px;
-}
+}               
 
 .skills-container{
     margin-top: 50px;
