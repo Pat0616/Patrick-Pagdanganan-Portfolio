@@ -93,6 +93,8 @@ body{
     font-size: 1.5rem;
 }
 
+
+
 .right-header {
     display: flex;
     flex: 1;
@@ -794,6 +796,41 @@ body{
         max-width: 90%;
         font-size: 0.7rem;
     }
+
+    .skills-stack-slider
+    {
+        padding-left: 2.35rem;
+        gap: 3.2rem;
+    }
+
+    .skills-stack-card
+    {
+        max-width: 200px;
+    }
+
+    .skill-icon{
+        height: 27px;
+        width: 27px;
+    }
+
+    .skillname{
+        font-size: .5rem;
+    }
+
+    .left-header{
+        flex: 0;
+        display:none;
+    }
+
+    .right-header{
+        justify-content: center;
+    }
+
+    .header-list{
+        padding-left: 0px;
+        justify-content: space-between;
+        gap: 2rem;
+    }
 }
 
 /* Medium phones (481px to 768px) */
@@ -842,5 +879,19 @@ body{
     .skills-stack-card
     {
         min-width: 100px;
+    }
+
+    .left-header{
+        flex: 0;
+        display:none;
+    }
+
+    .right-header{
+        justify-content: center;
+    }
+
+    .header-list{
+        justify-content: space-between;
+        gap: 2rem;
     }
 }
